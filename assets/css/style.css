@@ -7,7 +7,7 @@
   /**
    * COLORS
    */
-  --gold-crayola: rgb(241, 245, 0);
+  --gold-crayola: #4A9FD4;
   --quick-silver: hsla(0, 0%, 65%, 1);
   --davys-grey: hsla(30, 3%, 34%, 1);
   --smoky-black-1: hsla(40, 12%, 5%, 1);
@@ -604,7 +604,7 @@ body.nav-active {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: var(--gold-crayola);
+  background-color: #1A3A5C;
   z-index: 10;
   display: grid;
   place-content: center;
@@ -623,6 +623,10 @@ body.nav-active {
 .preload.loaded {
   transition-delay: 250ms;
   transform: translateY(100%);
+}
+
+.preload.text{
+  color:#ffffff;
 }
 
 .circle {
@@ -933,7 +937,7 @@ body.nav-active {
   border-radius: 50%;
   margin-top: -75px;
   object-fit: cover;
-  border: 5px solid #fffb00;
+  border: 5px solid #4A9FD4;
 }
 
 h3,
@@ -955,7 +959,7 @@ h3 {
 
 h4 {
   font-size: 14px;
-  color: #fbff00;
+  color: #4A9FD4;
   margin-top: 5px;
 }
 
@@ -976,7 +980,7 @@ h4 {
 }
 
 .review i {
-  color: orange;
+  color: #4A9FD4;
   font-size: 20px;
   margin: 0 2px;
 }
@@ -1240,7 +1244,7 @@ h4 {
 
 
 .wrapper .card.active {
-  background-color: #F1F500;
+  background-color: #1A3A5C;
   transform: scale(1, 1.09);
 }
 
@@ -1291,7 +1295,7 @@ h4 {
 
 
 .wrapper .card.active ul li {
-  color: rgba(216, 219, 5, 0.9);
+  color: rgba(74, 159, 212, 0.9);
 }
 
 .wrapper .card ul li i {
@@ -1309,7 +1313,7 @@ h4 {
   display: block;
   text-align: center;
   text-decoration: none;
-  border: 1px solid #F1F500;
+  border: 1px solid #4A9FD4;
   color: #000000;
   padding: 15px;
   border-radius: 5px;
@@ -1324,8 +1328,8 @@ h4 {
 }
 
 .wrapper .card a:hover {
-  background-color: #F1F500;
-  color: black;
+  background-color: #4A9FD4;
+  color: white;
 }
 
 
@@ -1349,8 +1353,8 @@ h4 {
   text-decoration: none;
   padding: 12px 64px;
   border-radius: 8px;
-  color: #000000;
-  background-color: #F1F500;
+  color: #ffffff;
+  background-color: #4A9FD4;
   font-size: 16px;
   font-weight: bold;
   text-align: center;
@@ -1358,7 +1362,7 @@ h4 {
 }
 
 .btn-new:hover {
-  background-color: #008000;
+  background-color: #1A3A5C;
   transform: scale(1.05);
 }
 
@@ -2756,7 +2760,7 @@ textarea.input-field {
   text-align: center;
   font-size: 24px;
   font-weight: 600;
-  color: #fbff00;
+  color: #4A9FD4;
   margin-bottom: 40px;
 }
 
@@ -2802,7 +2806,7 @@ textarea.input-field {
 h3,
 h4 {
   margin: 0;
-  color: #000000;
+  color: #ffffff;
 }
 
 p {
@@ -2818,7 +2822,7 @@ h3 {
 
 h4 {
   font-size: 14px;
-  color: #0096FF;
+  color: #4A9FD4;
   margin-top: 10px;
 }
 
@@ -2838,19 +2842,19 @@ h4 {
 
 
 .review i {
-  color: rgb(251, 255, 0);
+  color: #4A9FD4;
   font-size: 18px;
 }
 
 .team {
   padding: 50px 20px;
-  background-color: #222222;
+  background-color: #1A3A5C;
   text-align: center;
 }
 
 .section-title {
   font-size: 2.5rem;
-  color: #fffb00;
+  color: #4A9FD4;
   margin-bottom: 40px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -2887,7 +2891,7 @@ h4 {
   width: 100%;
   height: 250px;
   object-fit: cover;
-  border-bottom: 5px solid #fbff00; 
+  border-bottom: 5px solid #4A9FD4;
 }
 
 
@@ -2923,7 +2927,7 @@ h4 {
   padding: 60px 20px;
   background-size: cover;
   background-position: center;
-  color: #fbff00;
+  color: #ffffff;
 }
 
 .container {
@@ -2944,9 +2948,9 @@ h4 {
 .testi-text {
   font-size: 22px;
   font-weight: 300;
-  color: #fbff00;
+  color: #ffffff;
   margin-bottom: 40px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(26, 58, 92, 0.85);
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
@@ -2959,11 +2963,11 @@ h4 {
 
 .mission, .vision {
   width: 48%;
-  background-color: #000;
+  background-color: #1A3A5C;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
-  color: #fbff00;
+  color: #ffffff;
   text-align: center;
 }
 
@@ -2974,9 +2978,9 @@ h4 {
 
 .mission h3, .vision h3 {
   font-size: 24px;
-  color: #fbff00;
+  color: #4A9FD4;
   margin-bottom: 10px;
-  border-bottom: 2px solid #fbff00;
+  border-bottom: 2px solid #4A9FD4;
   padding-bottom: 10px;
 }
 
